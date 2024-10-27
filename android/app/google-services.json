@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "714466202107",
+    "project_id": "whatsapp-clone-cde7d",
+    "storage_bucket": "whatsapp-clone-cde7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714466202107:android:74457048dd27d59eaefb5e",
+        "android_client_info": {
+          "package_name": "com.drutosoft.whats_app_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcDCf5mPNzgSwj8NwCWcqUUlsa7yhqQiw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

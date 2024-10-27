@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyCCLL10xVQLU3bdk7bOuEPggsthWOcybOE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>714466202107</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.whatsAppFirebase</string>
+	<key>PROJECT_ID</key>
+	<string>whatsapp-clone-cde7d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>whatsapp-clone-cde7d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:714466202107:ios:1794b208453ef018aefb5e</string>
+</dict>
+</plist>

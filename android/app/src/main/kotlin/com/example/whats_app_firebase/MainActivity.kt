@@ -1,4 +1,4 @@
-package com.example.whats_app_firebase
+package com.drutosoft.whats_app_firebase
 
 import io.flutter.embedding.android.FlutterActivity
 
