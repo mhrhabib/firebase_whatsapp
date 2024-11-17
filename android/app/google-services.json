@@ -2,7 +2,7 @@
   "project_info": {
     "project_number": "714466202107",
     "project_id": "whatsapp-clone-cde7d",
-    "storage_bucket": "whatsapp-clone-cde7d.appspot.com"
+    "storage_bucket": "whatsapp-clone-cde7d.firebasestorage.app"
   },
   "client": [
     {
@@ -12,7 +12,20 @@
           "package_name": "com.drutosoft.whats_app_firebase"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "714466202107-v063k4d5bfibbjoulmoc7fo6l87mmkda.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.drutosoft.whats_app_firebase",
+            "certificate_hash": "e29c66fb6a13a9f8c914cf472a21a6dbde355fd1"
+          }
+        },
+        {
+          "client_id": "714466202107-iijnrd24v8b2sm28gol6le13tb0i7qeb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyAcDCf5mPNzgSwj8NwCWcqUUlsa7yhqQiw"
@@ -20,7 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "714466202107-iijnrd24v8b2sm28gol6le13tb0i7qeb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "714466202107-qp193s05hop4m71tre5ccdg6flap9jr6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.whatsAppFirebase"
+              }
+            }
+          ]
         }
       }
     }

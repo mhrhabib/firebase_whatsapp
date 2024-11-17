@@ -1,5 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:whats_app_firebase/features/landing/screens/landing_screen.dart';
 import 'package:whats_app_firebase/firebase_options.dart';
 import 'package:whats_app_firebase/router.dart';
@@ -8,8 +9,11 @@ import 'colors.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
-  runApp(const MyApp());
+  if (Firebase.apps.isEmpty) {
+    await Firebase.initializeApp(name: "debug", options: DefaultFirebaseOptions.currentPlatform);
+  }
+
+  runApp(const ProviderScope(child: MyApp()));
 }
 
 class MyApp extends StatelessWidget {
@@ -24,7 +28,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: backgroundColor,
       ),
       onGenerateRoute: (settings) => generateRoute(settings),
-      home: LandingScreen(),
+      home: const LandingScreen(),
     );
   }
 }
